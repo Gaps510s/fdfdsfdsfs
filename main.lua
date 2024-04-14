@@ -18,7 +18,7 @@ Library.__index = Library;
 function Library:NewLine(info)
 	local l = Drawing.new("Line")
 	l.Visible = info.Visible or true;
-	l.Color = info.Color or Color3.fromRGB(0,255,0);
+	l.Color = info.Color or Color3.fromRGB(255,255,255);
 	l.Transparency = info.Transparency or 1;
 	l.Thickness = info.Thickness or 1;
 	return l
